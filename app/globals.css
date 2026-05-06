@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+:root {
+  --cheondo-navy: #1E3A5F;
+  --cheondo-blue: #2E86AB;
+  --cheondo-gold: #F0A500;
+  --cheondo-bg: #F8F9FA;
+  --cheondo-text: #2C2C2C;
+}
+
+body {
+  background-color: var(--cheondo-bg);
+  color: var(--cheondo-text);
+  font-family: 'Noto Sans KR', 'Inter', sans-serif;
+}
+
+/* 스크롤바 스타일 */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: var(--cheondo-blue); border-radius: 3px; }
